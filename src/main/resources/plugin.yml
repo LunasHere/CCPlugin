@@ -1,0 +1,11 @@
+name: CCPlugin
+version: '${project.version}'
+main: com.lunashere.ccplugin.Main
+api-version: 1.19
+authors: [ Luna ]
+description: CottonCraft suggestion helper
+commands:
+  suggest:
+    description: Suggest a feature for the server
+    usage: /suggest <suggestion>
+    tab-complete: 0
